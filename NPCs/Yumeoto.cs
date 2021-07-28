@@ -14,6 +14,12 @@ namespace ChanoMod.NPCs
         {
             DisplayName.SetDefault("Yumeoto");
             DisplayName.AddTranslation(GameCulture.Chinese, "梦音");
+
+            ModTranslation text = mod.CreateTranslation("NPCName.Chano");
+            text.SetDefault("Chano");
+            text.AddTranslation(GameCulture.Chinese, "茶糯");
+            mod.AddTranslation(text);
+
             Main.npcFrameCount[npc.type] = 26;
             NPCID.Sets.ExtraFramesCount[npc.type] = 9;
             NPCID.Sets.AttackFrameCount[npc.type] = 4;
@@ -40,7 +46,7 @@ namespace ChanoMod.NPCs
         }
         public override bool CanTownNPCSpawn(int numTownNPCs, int money)
         {
-            return numTownNPCs >= 0 && money >= 0;
+            return numTownNPCs >= 1;
         }
         public override bool CheckConditions(int left, int right, int top, int bottom)
         {
@@ -50,7 +56,7 @@ namespace ChanoMod.NPCs
                 for (int y = top; y <= bottom; y++)
                 {
                     int type = Main.tile[x, y].type;
-                    if (type == TileID.PartyMonolith) score++;
+                    if (type == TileID.PartyMonolith) score++;  // Needs a PartyMonolith for Chano's house
                 }
             }
             return base.CheckConditions(left, right, top, bottom) && score >= 1;
@@ -89,6 +95,8 @@ namespace ChanoMod.NPCs
         }
         public override void SetupShop(Chest shop, ref int nextSlot)
         {
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<NekoEars>());
+            nextSlot++;
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoCandy>());
             nextSlot++;
             shop.item[nextSlot].SetDefaults(ItemID.Marshmallow);

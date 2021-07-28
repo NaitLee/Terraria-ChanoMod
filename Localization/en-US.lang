@@ -1,6 +1,11 @@
-﻿NPCName.Chano=Chano
+﻿
 Talk.great=Great~
 Talk.hello_everyone_im_yumeoto_chano=Hello everyone I'm Yumeoto Chano!
 Talk.0_welcome_becoming_a_yumeoto_candy={0} welcome becoming a Yumeoto Candy!
 ItemName.YumeotoCandy=Yumeoto Candy
+ItemName.NekoEars=Neko Ears
 ItemTooltip.YumeotoCandy=So sweet~\nBoosts life regeneration.
+ItemTooltip.NekoEars=Summon Nono the cat to follow you! :3
+ProjectileName.Nono=Nono
+BuffName.Nono=Nono
+BuffDescription.Nono=Nono will follow you forever~

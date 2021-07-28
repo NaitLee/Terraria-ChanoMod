@@ -1,6 +1,11 @@
-﻿NPCName.Chano=茶糯
+﻿
 Talk.great=好耶~
 Talk.hello_everyone_im_yumeoto_chano=大家好我是梦音茶糯！
 Talk.0_welcome_becoming_a_yumeoto_candy={0}欢迎你成为梦音糖！
 ItemName.YumeotoCandy=梦音糖
+ItemName.NekoEars=猫耳
 ItemTooltip.YumeotoCandy=好甜蜜哦~\n加速生命恢复
+ItemTooltip.NekoEars=召唤糯糯作为宠物！:3
+ProjectileName.Nono=糯糯
+BuffName.Nono=糯糯
+BuffDescription.Nono=糯糯将会一直陪伴你~

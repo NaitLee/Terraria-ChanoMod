@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Terraria-ChanoMod\\ChanoMod.csproj": {}
+    "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ChanoMod\\ChanoMod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Terraria-ChanoMod\\ChanoMod.csproj": {
+    "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ChanoMod\\ChanoMod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Terraria-ChanoMod\\ChanoMod.csproj",
+        "projectUniqueName": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ChanoMod\\ChanoMod.csproj",
         "projectName": "ChanoMod",
-        "projectPath": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Terraria-ChanoMod\\ChanoMod.csproj",
+        "projectPath": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ChanoMod\\ChanoMod.csproj",
         "packagesPath": "C:\\Users\\User0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Terraria-ChanoMod\\obj\\",
+        "outputPath": "C:\\Users\\User0\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ChanoMod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User0\\AppData\\Roaming\\NuGet\\NuGet.Config",
