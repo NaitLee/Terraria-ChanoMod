@@ -1,0 +1,3 @@
+﻿displayName = Chano Mod (茶糯 Mod)
+author = NaitLee
+version = 0.1
