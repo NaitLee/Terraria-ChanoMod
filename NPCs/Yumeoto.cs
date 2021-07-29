@@ -21,13 +21,13 @@ namespace ChanoMod.NPCs
             mod.AddTranslation(text);
 
             Main.npcFrameCount[npc.type] = 26;
-            NPCID.Sets.ExtraFramesCount[npc.type] = 9;
-            NPCID.Sets.AttackFrameCount[npc.type] = 4;
+            // NPCID.Sets.ExtraFramesCount[npc.type] = 9;
+            // NPCID.Sets.AttackFrameCount[npc.type] = 4;
             NPCID.Sets.DangerDetectRange[npc.type] = 700;
             NPCID.Sets.AttackType[npc.type] = 0;
             NPCID.Sets.AttackTime[npc.type] = 90;
             NPCID.Sets.AttackAverageChance[npc.type] = 30;
-            NPCID.Sets.HatOffsetY[npc.type] = 4;
+            NPCID.Sets.HatOffsetY[npc.type] = -4;
         }
         public override void SetDefaults()
         {
@@ -97,7 +97,11 @@ namespace ChanoMod.NPCs
         {
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<NekoEars>());
             nextSlot++;
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoCharm>());
+            nextSlot++;
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoCandy>());
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoTea>());
             nextSlot++;
             shop.item[nextSlot].SetDefaults(ItemID.Marshmallow);
             nextSlot++;

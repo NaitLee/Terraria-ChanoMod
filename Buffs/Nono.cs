@@ -9,6 +9,7 @@ namespace ChanoMod.Buffs
 		{
 			Main.buffNoTimeDisplay[Type] = true;
 			Main.vanityPet[Type] = true;
+			Main.debuff[Type] = false;
 		}
 		public override void Update(Player player, ref int buffIndex)
 		{
@@ -18,6 +19,7 @@ namespace ChanoMod.Buffs
 			{
 				Projectile.NewProjectile(player.position.X + (float)(player.width / 2), player.position.Y + (float)(player.height / 2), 0f, 0f, ModContent.ProjectileType<Projectiles.Nono>(), 0, 0f, player.whoAmI, 0f, 0f);
 			}
+            player.lifeRegen += 2;
 		}
 	}
 }

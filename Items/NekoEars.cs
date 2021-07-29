@@ -11,7 +11,7 @@ namespace ChanoMod.Items
             item.CloneDefaults(ItemID.LizardEgg);
             item.shoot = ModContent.ProjectileType<Projectiles.Nono>();
             item.buffType = ModContent.BuffType<Buffs.Nono>();
-            item.value = 150000;
+            item.value = 50000;
             item.rare = ItemRarityID.Pink;
         }
         public override void UseStyle(Player player)

@@ -1,15 +1,12 @@
-﻿using Terraria.ID;
+﻿using Terraria;
 using Terraria.ModLoader;
+using Terraria.ID;
 using ChanoMod.Buffs;
 
 namespace ChanoMod.Items
 {
-    class YumeotoCandy : ModItem
+    class YumeotoTea : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-            Tooltip.SetDefault("So sweet~\nBoosts life regeneration.");
-        }
         public override void SetDefaults()
         {
             item.width = 20;
@@ -18,13 +15,13 @@ namespace ChanoMod.Items
             item.useAnimation = 17;
             item.useTime = 17;
             item.useTurn = true;
-            item.UseSound = SoundID.Item2;
+            item.UseSound = SoundID.Item3;
             item.maxStack = 30;
             item.consumable = true;
             item.rare = ItemRarityID.Orange;
-            item.value = 800;
-            item.buffType = ModContent.BuffType<Candy>();
-            item.buffTime = 10800;
+            item.value = 1500;
+            item.buffType = ModContent.BuffType<Tea>();
+            item.buffTime = 21600;
         }
     }
 }
