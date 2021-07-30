@@ -97,6 +97,8 @@ namespace ChanoMod.NPCs
         {
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<NekoEars>());
             nextSlot++;
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<MP3Player>());
+            nextSlot++;
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoCharm>());
             nextSlot++;
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<YumeotoCandy>());
